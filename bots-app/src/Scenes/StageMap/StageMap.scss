@@ -1,0 +1,17 @@
+@import '../../Assets/Scss/import';
+
+.stageMap {
+    background-color: $background;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    &-container {
+        @include absCenter;
+        background-color: $white;
+        width: 1000px;
+        height: 700px;
+    }
+}
